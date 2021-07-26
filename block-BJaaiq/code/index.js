@@ -26,3 +26,8 @@ document.addEventListener("scroll", () => {
     addQuotes();
   }
 });
+
+window.addEventListener("DomContentLoader", () => {
+  alert("The Content of the DOM Is Loaded");
+  addQuotes();
+});
