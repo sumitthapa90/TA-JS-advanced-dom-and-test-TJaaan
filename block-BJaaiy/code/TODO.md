@@ -21,10 +21,6 @@ Print Date or Time in the following format:
 - `Feb 12th 21`
 
 Check if the following date is valid or not:
-
-- `2020-01-01`
-- `2020-14-01`
-
 Manipulating Dates
 
 - adds 7 days to current date
