@@ -3,21 +3,21 @@ function getFullName(firstName, lastName) {
 }
 
 function isPalindrome(str) {
-  let revereStr = str.spilt("").reverse().join("");
-  return str === revereStr;
+  let reverseStr = str.split("").reverse().join("");
+  return str === reverseStr;
 }
 
-function getCircumfrence(radius) {
+function getCircumference(radius) {
   return `The circumference is ${Math.floor(2 * Math.PI * radius)}`;
 }
 
-function getArea(radius) {
+function getAreaOfCircle(radius) {
   return `The area is ${Math.floor(Math.PI * (radius * radius))}`;
 }
 
-module.expots = {
+module.exports = {
   getFullName,
   isPalindrome,
-  getCircumfrence,
-  getArea,
+  getCircumference,
+  getAreaOfCircle,
 };
